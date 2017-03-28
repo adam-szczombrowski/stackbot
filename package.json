@@ -1,0 +1,19 @@
+{
+  "name": "slack-stack-overflow-example",
+  "version": "1.0.0",
+  "description": "Example stack overflow bot using Slack's Event API",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adam Szczombrowski <adam.szczombrowski@gmail.com>",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "ws": "^1.1.1",
+		"request": "2.72.0",
+    "synchronize": "^0.9.14",
+    "httpdispatcher":"*",
+    "request":"*",
+    "stackexchange":"*",
+    "html-to-markdown":"*"
+  }
+}
